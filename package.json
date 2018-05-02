@@ -3,7 +3,7 @@
     "start": "http-server -p 8000 ./src/",
     "cypress:open": "cypress open",
     "test:local": "cypress run",
-    "test": "cypress run && visualcop-cli ./cypress/screenshots/**"
+    "test": "printenv && cypress run && visualcop-cli ./cypress/screenshots/**"
   },
   "devDependencies": {
     "cypress": "^2.1.0",
