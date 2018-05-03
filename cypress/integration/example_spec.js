@@ -5,7 +5,7 @@ describe("App tests", function() {
     console.log("dirname: ", __dirname);
     cy.visit("http://localhost:8000");
 
-    cy.get("h1").contains("Hello World!").then(screenshot('Homepage'));
+    cy.get("h1").contains("Hello World 123!").then(screenshot('Homepage'));
   });
 });
 
