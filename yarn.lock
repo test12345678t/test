@@ -1275,9 +1275,9 @@ verror@1.10.0:
     core-util-is "1.0.2"
     extsprintf "^1.2.0"
 
-visualcop-cli@^0.0.3:
-  version "0.0.3"
-  resolved "https://registry.yarnpkg.com/visualcop-cli/-/visualcop-cli-0.0.3.tgz#5926ce7af478f15dd2c642ab2ed10f92be302a69"
+visualcop-cli@^0.0.4:
+  version "0.0.4"
+  resolved "https://registry.yarnpkg.com/visualcop-cli/-/visualcop-cli-0.0.4.tgz#4c76dbd5fedf2a546e7d1d1866f773c5faf73546"
   dependencies:
     glob "^7.1.2"
     graphql-request "^1.5.2"
