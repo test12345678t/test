@@ -15,7 +15,8 @@
       "actualKey": "${GIT_COMMIT}"
     },
     "reg-notify-github-plugin": {
-      "clientId": "MzSyMDMzN7Aw0y9JLS7RNzQ3MTc2ALMNjYxNTM3MLUoA"
+      "clientId": "MzSyMDMzN7Aw0y9JLS7RNzQ3MTc2ALMNjYxNTM3MLUoA",
+      "prComment": true
     },
     "reg-publish-s3-plugin": {
       "bucketName": "test-repo-gh"
