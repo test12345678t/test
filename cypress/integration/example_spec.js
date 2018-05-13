@@ -8,7 +8,6 @@ describe("App tests", function() {
     cy.get("h1").contains("Hello World 123!").then(screenshot('Homepage'));
   });
 });
-//test
 
 var screenshot = file => () => {
   var reporter = window.parent.document.getElementsByClassName("reporter-wrap")[0],
