@@ -12,3 +12,4 @@ script:
   - set -e                     # fail fast
   - yarn start&
   - yarn test
+  - yarn reg-suit
