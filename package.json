@@ -4,7 +4,7 @@
     "cypress:open": "cypress open",
     "test:local": "cypress run",
     "test": "printenv && cypress run",
-    "reg-suit": "reg-suit run"
+    "reg-suit": "echo $ACTUAL_KEY && echo $EXPECTED_KEY && reg-suit run"
   },
   "devDependencies": {
     "cypress": "^2.1.0",
