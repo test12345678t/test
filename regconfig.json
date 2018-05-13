@@ -11,8 +11,8 @@
   },
   "plugins": {
     "reg-simple-keygen-plugin": {
-      "expectedKey": "${TARGET_GIT_COMMIT}",
-      "actualKey": "${GIT_COMMIT}"
+      "expectedKey": "${EXPECTED_KEY}",
+      "actualKey": "${ACTUAL_KEY}"
     },
     "reg-notify-github-plugin": {
       "clientId": "MzSyMDMzN7Aw0y9JLS7RNzQ3MTc2ALMNjYxNTM3MLUoA"
