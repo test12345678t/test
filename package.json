@@ -3,11 +3,16 @@
     "start": "http-server -p 8000 ./src/",
     "cypress:open": "cypress open",
     "test:local": "cypress run",
-    "test": "printenv && cypress run && visualcop-cli ./cypress/screenshots/**"
+    "test": "printenv && cypress run",
+    "reg-suit": "reg-suit run"
   },
   "devDependencies": {
     "cypress": "^2.1.0",
     "http-server": "^0.11.1",
+    "reg-notify-github-plugin": "^0.7.2",
+    "reg-publish-s3-plugin": "^0.7.2",
+    "reg-simple-keygen-plugin": "^0.7.1",
+    "reg-suit": "^0.7.2",
     "visualcop-cli": "^0.0.4"
   }
 }

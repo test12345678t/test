@@ -7,6 +7,9 @@ cache: yarn
 install:
   - yarn --frozen-lockfile
 script:
+  - export EXPECTED_KEY=$(git rev-parse origin/master)
+  - export ACTUAL_KEY=$TRAVIS_COMMIT # set by TravisCI
   - set -e                     # fail fast
   - yarn start&
   - yarn test
+  - yarn reg-suit

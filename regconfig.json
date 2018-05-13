@@ -1,0 +1,24 @@
+{
+  "core": {
+    "actualDir": "./cypress/screenshots",
+    "workingDir": "__screenshots_tmp__",
+    "threshold": 0,
+    "addIgnore": true,
+    "thresholdRate": 0,
+    "ximgdiff": {
+      "invocationType": "client"
+    }
+  },
+  "plugins": {
+    "reg-simple-keygen-plugin": {
+      "expectedKey": "${TARGET_GIT_COMMIT}",
+      "actualKey": "${GIT_COMMIT}"
+    },
+    "reg-notify-github-plugin": {
+      "clientId": "MzSyMDMzN7Aw0y9JLS7RNzQ3MTc2ALMNjYxNTM3MLUoA"
+    },
+    "reg-publish-s3-plugin": {
+      "bucketName": "test-repo-gh"
+    }
+  }
+}
